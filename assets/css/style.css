@@ -45,3 +45,26 @@
         padding: 20px;
         backdrop-filter: blur(5px);
     }
+
+    .section-title {
+        border-bottom: 2px solid rgba(21, 12, 120, 0.2);
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-style: italic;
+    }
+
+    .forecast-card {
+        background-color: rgba(255, 255, 255, 0.662);
+        border-radius: 12px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .forecast-scroll {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .forecast-card img {
+        width: 50px;
+    }
