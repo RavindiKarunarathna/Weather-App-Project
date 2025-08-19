@@ -4,12 +4,21 @@
         /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     }
 
-    .background-img {
+    /* .background-img {
         background-image: url('/assets/images/w-bgimg2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         min-height: 100vh;
+    } */
+
+    .main-img-edit{
+        height: 100px;
+        width: 100px;
+    }
+
+    .main-weather-font{
+        font-size: 25px;
     }
 
     .search-bar {
@@ -47,7 +56,8 @@
     }
 
     .section-title {
-        border-bottom: 2px solid rgba(21, 12, 120, 0.2);
+        border-bottom: 2px solid rgba(237, 236, 240, 0.92);
+        color: white;
         padding-bottom: 5px;
         margin-bottom: 15px;
         font-style: italic;
